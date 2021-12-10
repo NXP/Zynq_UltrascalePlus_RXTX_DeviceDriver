@@ -1,18 +1,10 @@
-/*/NXP Radar Driver
- * SPDX-License-Identifier:GPL-2.0
- * Copyright (C) 2019 NXP
- *
- * AUTHOR: NXP
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * version 2 as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- */
+/*
+* Copyright 2021 NXP
+*
+* SPDX-License-Identifier: GPL-2.0
+* The GPL-2.0 license for this file can be found in the COPYING.GPL file
+* included with this distribution or at http://www.gnu.org/licenses/gpl-2.0.html
+*/
 
 #include "nxp-csi2rx-driver.h"
 
