@@ -1,7 +1,9 @@
 obj-m := nxp-csi2tx-driver.o
 
-MY_CFLAGS += -g -DDEBUG -DCSI2TX_RW_FABRIC_ENABLE
-ccflags-y += ${MY_CFLAGS}
+#ccflags-y += -DDEBUG
+#ccflags-y += -DTIME_STAMP_EN
+#ccflags-y += -DMODULE_PARAM_EN
+#ccflags-y += -DUNUSED_ATTR
 
 SRC := $(shell pwd)
 
@@ -15,3 +17,4 @@ clean:
 	rm -f *.o *~ core .depend .*.cmd *.ko *.mod.c
 	rm -f Module.markers Module.symvers modules.order
 	rm -rf .tmp_versions Modules.symvers
+
